@@ -1,2 +1,116 @@
-# udpdiff
-Scripts and data for differential UDP/TCP performance measurements
+# Data and Analysis for Differential Performance of UDP and TCP
+
+This repository contains links to raw data and Jupyter notebooks for the
+analysis of that data comparing UDP and TCP connectivity and performance in
+the Internet. 
+
+## PAM 2016 / A First Look at Network-Layer Impairments to UDP Encapsulation
+
+At present, two data sets are available, in support of "A First Look at Network-Layer Impairments to UDP Encapsulation", a paper presently under submission to the 2016 Passive and Active Measurement Conference.
+
+### copycat on PlanetLab
+
+The first data set, measured using the [copycat](http://queen.run.montefiore.ulg.ac.be/~edeline/pam16/) tool on PlanetLab, has not yet been uploaded to the repository. Please contact [Korian Edeline](mailto:korian.edeline@ulg.ac.be) for direct access. Jupyter notebooks will be uploaded shortly.
+
+### RIPE Atlas
+
+The second data set, measured using [RIPE Atlas](http://atlas.ripe.net), is available publicly from RIPE Atlas. The following MSMs are part of the data set used in the paper:
+
+- [2444289 (TCP/33435 to is-rey-as1850)](https://atlas.ripe.net/measurements/2444289)
+- [2444288 (TCP/80 to is-rey-as1850)](https://atlas.ripe.net/measurements/2444288)
+- [2444290 (UDP/33435 to is-rey-as1850)](https://atlas.ripe.net/measurements/2444290)
+- [2444317 (TCP/33435 to nz-hlz-as681)](https://atlas.ripe.net/measurements/2444317)
+- [2444316 (TCP/80 to nz-hlz-as681)](https://atlas.ripe.net/measurements/2444316)
+- [2444318 (UDP/33435 to nz-hlz-as681)](https://atlas.ripe.net/measurements/2444318)
+- [2444305 (TCP/33435 to mu-plu-as327681)](https://atlas.ripe.net/measurements/2444305)
+- [2444303 (TCP/80 to mu-plu-as327681)](https://atlas.ripe.net/measurements/2444303)
+- [2444306 (UDP/33435 to mu-plu-as327681)](https://atlas.ripe.net/measurements/2444306)
+- [2444286 (TCP/33435 to pk-isb-as7590)](https://atlas.ripe.net/measurements/2444286)
+- [2444285 (TCP/80 to pk-isb-as7590)](https://atlas.ripe.net/measurements/2444285)
+- [2444287 (UDP/33435 to pk-isb-as7590)](https://atlas.ripe.net/measurements/2444287)
+- [2444223 (TCP/33435 to us-dal-as7366)](https://atlas.ripe.net/measurements/2444223)
+- [2444222 (TCP/80 to us-dal-as7366)](https://atlas.ripe.net/measurements/2444222)
+- [2444224 (UDP/33435 to us-dal-as7366)](https://atlas.ripe.net/measurements/2444224)
+- [2444226 (TCP/33435 to nl-ams-as3333)](https://atlas.ripe.net/measurements/2444226)
+- [2444225 (TCP/80 to nl-ams-as3333)](https://atlas.ripe.net/measurements/2444225)
+- [2444227 (UDP/33435 to nl-ams-as3333)](https://atlas.ripe.net/measurements/2444227)
+- [2444205 (TCP/33435 to us-pao-as1280)](https://atlas.ripe.net/measurements/2444205)
+- [2444204 (TCP/80 to us-pao-as1280)](https://atlas.ripe.net/measurements/2444204)
+- [2444206 (UDP/33435 to us-pao-as1280)](https://atlas.ripe.net/measurements/2444206)
+- [2444208 (TCP/33435 to nl-ens-as1133)](https://atlas.ripe.net/measurements/2444208)
+- [2444207 (TCP/80 to nl-ens-as1133)](https://atlas.ripe.net/measurements/2444207)
+- [2444209 (UDP/33435 to nl-ens-as1133)](https://atlas.ripe.net/measurements/2444209)
+- [2444196 (TCP/33435 to ru-mow-as47764)](https://atlas.ripe.net/measurements/2444196)
+- [2444195 (TCP/80 to ru-mow-as47764)](https://atlas.ripe.net/measurements/2444195)
+- [2444197 (UDP/33435 to ru-mow-as47764)](https://atlas.ripe.net/measurements/2444197)
+- [2444181 (TCP/33435 to br-sao-as22548)](https://atlas.ripe.net/measurements/2444181)
+- [2444180 (TCP/80 to br-sao-as22548)](https://atlas.ripe.net/measurements/2444180)
+- [2444182 (UDP/33435 to br-sao-as22548)](https://atlas.ripe.net/measurements/2444182)
+- [2444292 (TCP/33435 to at-vie-as1120)](https://atlas.ripe.net/measurements/2444292)
+- [2444291 (TCP/80 to at-vie-as1120)](https://atlas.ripe.net/measurements/2444291)
+- [2444293 (UDP/33435 to at-vie-as1120)](https://atlas.ripe.net/measurements/2444293)
+- [2444184 (TCP/33435 to au-bne-as4608)](https://atlas.ripe.net/measurements/2444184)
+- [2444183 (TCP/80 to au-bne-as4608)](https://atlas.ripe.net/measurements/2444183)
+- [2444185 (UDP/33435 to au-bne-as4608)](https://atlas.ripe.net/measurements/2444185)
+- [2444314 (TCP/33435 to de-str-as553)](https://atlas.ripe.net/measurements/2444314)
+- [2444313 (TCP/80 to de-str-as553)](https://atlas.ripe.net/measurements/2444313)
+- [2444315 (UDP/33435 to de-str-as553)](https://atlas.ripe.net/measurements/2444315)
+- [2444298 (TCP/33435 to hu-bud-as12303)](https://atlas.ripe.net/measurements/2444298)
+- [2444297 (TCP/80 to hu-bud-as12303)](https://atlas.ripe.net/measurements/2444297)
+- [2444299 (UDP/33435 to hu-bud-as12303)](https://atlas.ripe.net/measurements/2444299)
+- [2444202 (TCP/33435 to mv-mle-as7642)](https://atlas.ripe.net/measurements/2444202)
+- [2444201 (TCP/80 to mv-mle-as7642)](https://atlas.ripe.net/measurements/2444201)
+- [2444203 (UDP/33435 to mv-mle-as7642)](https://atlas.ripe.net/measurements/2444203)
+- [2444301 (TCP/33435 to bg-sof-as197216)](https://atlas.ripe.net/measurements/2444301)
+- [2444300 (TCP/80 to bg-sof-as197216)](https://atlas.ripe.net/measurements/2444300)
+- [2444302 (UDP/33435 to bg-sof-as197216)](https://atlas.ripe.net/measurements/2444302)
+- [2444283 (TCP/33435 to us-atl-as2914)](https://atlas.ripe.net/measurements/2444283)
+- [2444282 (TCP/80 to us-atl-as2914)](https://atlas.ripe.net/measurements/2444282)
+- [2444284 (UDP/33435 to us-atl-as2914)](https://atlas.ripe.net/measurements/2444284)
+- [2444311 (TCP/33435 to za-jnb-as10474)](https://atlas.ripe.net/measurements/2444311)
+- [2444310 (TCP/80 to za-jnb-as10474)](https://atlas.ripe.net/measurements/2444310)
+- [2444312 (UDP/33435 to za-jnb-as10474)](https://atlas.ripe.net/measurements/2444312)
+- [2444308 (TCP/33435 to ee-jvi-as198068)](https://atlas.ripe.net/measurements/2444308)
+- [2444307 (TCP/80 to ee-jvi-as198068)](https://atlas.ripe.net/measurements/2444307)
+- [2444309 (UDP/33435 to ee-jvi-as198068)](https://atlas.ripe.net/measurements/2444309)
+- [2444295 (TCP/33435 to ch-gtg-as20612)](https://atlas.ripe.net/measurements/2444295)
+- [2444294 (TCP/80 to ch-gtg-as20612)](https://atlas.ripe.net/measurements/2444294)
+- [2444296 (UDP/33435 to ch-gtg-as20612)](https://atlas.ripe.net/measurements/2444296)
+- [2444193 (TCP/33435 to fi-hel-as3292)](https://atlas.ripe.net/measurements/2444193)
+- [2444192 (TCP/80 to fi-hel-as3292)](https://atlas.ripe.net/measurements/2444192)
+- [2444194 (UDP/33435 to fi-hel-as3292)](https://atlas.ripe.net/measurements/2444194)
+- [2444229 (TCP/33435 to us-den-as7922)](https://atlas.ripe.net/measurements/2444229)
+- [2444228 (TCP/80 to us-den-as7922)](https://atlas.ripe.net/measurements/2444228)
+- [2444230 (UDP/33435 to us-den-as7922)](https://atlas.ripe.net/measurements/2444230)
+- [2444280 (TCP/33435 to ca-van-as852)](https://atlas.ripe.net/measurements/2444280)
+- [2444279 (TCP/80 to ca-van-as852)](https://atlas.ripe.net/measurements/2444279)
+- [2444281 (UDP/33435 to ca-van-as852)](https://atlas.ripe.net/measurements/2444281)
+- [2444190 (TCP/33435 to kz-ala-as21299)](https://atlas.ripe.net/measurements/2444190)
+- [2444189 (TCP/80 to kz-ala-as21299)](https://atlas.ripe.net/measurements/2444189)
+- [2444191 (UDP/33435 to kz-ala-as21299)](https://atlas.ripe.net/measurements/2444191)
+- [2444175 (TCP/33435 to de-fra-as8763)](https://atlas.ripe.net/measurements/2444175)
+- [2444174 (TCP/80 to de-fra-as8763)](https://atlas.ripe.net/measurements/2444174)
+- [2444176 (UDP/33435 to de-fra-as8763)](https://atlas.ripe.net/measurements/2444176)
+- [2444199 (TCP/33435 to sg-sin-as133165)](https://atlas.ripe.net/measurements/2444199)
+- [2444198 (TCP/80 to sg-sin-as133165)](https://atlas.ripe.net/measurements/2444198)
+- [2444200 (UDP/33435 to sg-sin-as133165)](https://atlas.ripe.net/measurements/2444200)
+- [2444220 (TCP/33435 to uy-mvd-as28000)](https://atlas.ripe.net/measurements/2444220)
+- [2444219 (TCP/80 to uy-mvd-as28000)](https://atlas.ripe.net/measurements/2444219)
+- [2444221 (UDP/33435 to uy-mvd-as28000)](https://atlas.ripe.net/measurements/2444221)
+- [2444211 (TCP/33435 to ie-dub-as1213)](https://atlas.ripe.net/measurements/2444211)
+- [2444210 (TCP/80 to ie-dub-as1213)](https://atlas.ripe.net/measurements/2444210)
+- [2444212 (UDP/33435 to ie-dub-as1213)](https://atlas.ripe.net/measurements/2444212)
+- [2444217 (TCP/33435 to uk-lon-as5459)](https://atlas.ripe.net/measurements/2444217)
+- [2444216 (TCP/80 to uk-lon-as5459)](https://atlas.ripe.net/measurements/2444216)
+- [2444218 (UDP/33435 to uk-lon-as5459)](https://atlas.ripe.net/measurements/2444218)
+- [2444214 (TCP/33435 to cz-brq-as197451)](https://atlas.ripe.net/measurements/2444214)
+- [2444213 (TCP/80 to cz-brq-as197451)](https://atlas.ripe.net/measurements/2444213)
+- [2444215 (UDP/33435 to cz-brq-as197451)](https://atlas.ripe.net/measurements/2444215)
+- [2444178 (TCP/33435 to fr-cdg-as2486)](https://atlas.ripe.net/measurements/2444178)
+- [2444177 (TCP/80 to fr-cdg-as2486)](https://atlas.ripe.net/measurements/2444177)
+- [2444179 (UDP/33435 to fr-cdg-as2486)](https://atlas.ripe.net/measurements/2444179)
+- [2444187 (TCP/33435 to ua-iev-as29632)](https://atlas.ripe.net/measurements/2444187)
+- [2444186 (TCP/80 to ua-iev-as29632)](https://atlas.ripe.net/measurements/2444186)
+- [2444188 (UDP/33435 to ua-iev-as29632)](https://atlas.ripe.net/measurements/2444188)
+
+Jupyter notebooks will be uploaded shortly.
