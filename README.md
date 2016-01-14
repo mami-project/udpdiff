@@ -4,9 +4,9 @@ This repository contains links to raw data and Jupyter notebooks for the
 analysis of that data comparing UDP and TCP connectivity and performance in
 the Internet. 
 
-## PAM 2016 / A First Look at Network-Layer Impairments to UDP Encapsulation
+## TMA 2016 / A First Look at Network-Layer Impairments to UDP Encapsulation
 
-At present, two data sets are available, in support of "A First Look at Network-Layer Impairments to UDP Encapsulation", a paper presently under submission to the 2016 Passive and Active Measurement Conference.
+At present, two data sets are available, in support of "A First Look at Network-Layer Impairments to UDP Encapsulation", a paper presently under submission to the 2016 Traffic Measurement and Analysis Workshop.
 
 ### copycat on PlanetLab
 
@@ -113,4 +113,4 @@ The second data set, measured using [RIPE Atlas](http://atlas.ripe.net), is avai
 - [2444186 (TCP/80 to ua-iev-as29632)](https://atlas.ripe.net/measurements/2444186)
 - [2444188 (UDP/33435 to ua-iev-as29632)](https://atlas.ripe.net/measurements/2444188)
 
-Jupyter notebooks will be uploaded shortly.
+The Jupyter notebook for analysis is available [here](atlas_latency_Sep15/atlas_traceconn.ipynb).
