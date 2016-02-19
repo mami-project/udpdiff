@@ -10,7 +10,7 @@ At present, two data sets are available, in support of "A First Look at Network-
 
 ### copycat on PlanetLab
 
-The copycat.1 dataset and tool [is available here](http://queen.run.montefiore.ulg.ac.be/~edeline/pam16/). 
+The copycat.1 dataset and tool are available [here](http://queen.run.montefiore.ulg.ac.be/~edeline/pam16/). 
 
 The Jupyter notebooks for analysis are available [here](copycat15).
 
