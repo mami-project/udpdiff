@@ -10,7 +10,9 @@ At present, two data sets are available, in support of "A First Look at Network-
 
 ### copycat on PlanetLab
 
-The first data set, measured using the [copycat](http://queen.run.montefiore.ulg.ac.be/~edeline/pam16/) tool on PlanetLab, has not yet been uploaded to the repository. Please contact [Korian Edeline](mailto:korian.edeline@ulg.ac.be) for direct access. Jupyter notebooks will be uploaded shortly.
+The copycat.1 dataset and tool are available [here](http://queen.run.montefiore.ulg.ac.be/~edeline/pam16/). 
+
+The Jupyter notebooks for analysis are available [here](copycat15).
 
 ### RIPE Atlas
 
