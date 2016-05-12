@@ -4,15 +4,11 @@ This repository contains links to raw data and Jupyter notebooks for the
 analysis of that data comparing UDP and TCP connectivity and performance in
 the Internet. 
 
-## TMA 2016 / A First Look at Network-Layer Impairments to UDP Encapsulation
+### copycat on PlanetLab and Digital Ocean
 
-At present, two data sets are available, in support of "A First Look at Network-Layer Impairments to UDP Encapsulation", a paper presently under submission to the 2016 Traffic Measurement and Analysis Workshop.
+The copycat tool is available [here](https://github.com/mami-project/udptun) and the datasets [here](http://queen.run.montefiore.ulg.ac.be/~edeline/copycat/). 
 
-### copycat on PlanetLab
-
-The copycat.1 dataset and tool are available [here](http://queen.run.montefiore.ulg.ac.be/~edeline/pam16/). 
-
-The Jupyter notebooks for analysis are available [here](copycat15).
+The Jupyter notebooks for analysis are available [here](copycat).
 
 ### RIPE Atlas
 
